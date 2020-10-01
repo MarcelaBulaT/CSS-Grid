@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
-</head>
-<header>
-  <ul class="menu">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap"
+      rel="stylesheet">
+  </head>
+  <style>
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* Only change code below this line */
+    grid-row-gap: 5px;
+    
+    /* Only change code above this line */
+  }
+</style>
+  <header>
+    <ul class="menu">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="create-your-first-css-grid.html">1</a></li>
       <li><a href="add-columns-with-grid-template-columns.html">2</a></li>
       <li><a href="add-rows-with-grid-template-rows.html">3</a></li>
-      <li><a href="use-css-grid-units-to-change-the-size-of-columns-and-rows.html">4</a></li>
+      <li><a
+          href="use-css-grid-units-to-change-the-size-of-columns-and-rows.html">4</a></li>
       <li><a href="create-a-column-gap-using-grid-column-gap.html">5</a></li>
       <li><a href="create-a-row-gap-using-grid-row-gap.html">6</a></li>
       <li><a href="add-gaps-faster-with-grid-gap.html">7</a></li>
@@ -30,38 +54,20 @@
       <li><a href="limit-item-size-using-the-minmax-function.html">18</a></li>
       <li><a href="create-flexible-layouts-using-auto-fill.html">19</a></li>
       <li><a href="create-flexible-layouts-using-auto-fit.html">20</a></li>
-      <li><a href="use-media-queries-to-create-responsive-layouts.html">21</a></li>       
+      <li><a href="use-media-queries-to-create-responsive-layouts.html">21</a></li>
       <li><a href="create-grids-within-grids.html">22</a></li>
-  </ul> 
-</header>
+    </ul>
+  </header>
 
-<body>
-  <h1 class="title">Ejercicios CSS Grid - Ingeniería Web</h1>
-  <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Escudo_UMB.png" alt="Logo UMB">
-    <h2 class="subtitle">Marcela Andrea Bula Torres - Universidad Manuela Beltrán 2020.</h2>
+  <body>
+    <h1 class="title">Ejercicios CSS Grid - Ingeniería Web</h1>
+    <img class="logo"
+      src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Escudo_UMB.png"
+      alt="Logo UMB">
+    <h2 class="subtitle">Marcela Andrea Bula Torres - Universidad Manuela
+      Beltrán 2020.</h2>
     <h3>Create a row gap using grid-row-gap</h3>
-    <style>
-      .d1{background:LightSkyBlue;}
-      .d2{background:LightSalmon;}
-      .d3{background:PaleTurquoise;}
-      .d4{background:LightPink;}
-      .d5{background:PaleGreen;}
-    
-      .container {
-        font-size: 40px;
-        min-height: 300px;
-        width: 100%;
-        background: LightGray;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        /* Only change code below this line */
-        grid-row-gap: 5px;
-        
-        /* Only change code above this line */
-      }
-    </style>
-    
+
     <div class="container">
       <div class="d1">1</div>
       <div class="d2">2</div>
@@ -69,6 +75,5 @@
       <div class="d4">4</div>
       <div class="d5">5</div>
     </div>
-</body>
+  </body>
 </html>
-
